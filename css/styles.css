@@ -549,3 +549,46 @@ flex-direction: column;
 .icon_media {
     fill: #f4f4fd;
 }
+
+
+
+
+
+.for_email {
+font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}
+.login-form {
+    display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        gap: 16px;
+        margin-left: 80px;
+        
+}
+
+.for_email label {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.submit_batton {
+    display: flex;
+    align-items: center;
+        justify-content: center;
+    border-radius: 4px;
+        padding: 8px 24px;
+        width: 165px;
+        height: 40px;
+        background: #4d5ae5;
+        font-weight: 500;
+            font-size: 16px;
+            line-height: 1.5;
+            letter-spacing: 0.04em;
+            text-align: center;
+            color: #fff;
+}
