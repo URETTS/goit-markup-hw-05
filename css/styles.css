@@ -758,15 +758,12 @@ font-weight: 400;
 
 .form-input:focus {
     border-color: #4D5AE5;
+    
 }
 
 .forma_box_comment {
     margin-bottom: 16px;
 }
-
-
-
-
 
 
 .soglashenie {
@@ -782,10 +779,6 @@ font-weight: 400;
         
 }
 .privacy_policy {
-    line-height: 1.33;
-        text-decoration: underline;
-        text-decoration-skip-ink: none;
-        color: #4d5ae5;
         width: 16px;
         height: 16px;
         border: 1px solid rgba(46, 47, 66, 0.4);
@@ -797,11 +790,19 @@ font-weight: 400;
         fill: transparent;
 }
 
+.link_pr_p {
+line-height: 1.33333;
+text-decoration: underline;
+text-decoration-skip-ink: none;
+color: #4d5ae5;
+}
 
 
-
-
-
+.soglashenie input[type="checkbox"]:checked+label .privacy_policy {
+    background-color: #404bbf;;
+    border: none;
+    fill: #F4F4FD;;
+}
 
 
 .send_batton {
