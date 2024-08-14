@@ -692,5 +692,33 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     margin-bottom: 16px;
 }
 
-.forma{
+.forma_box {
+    margin-bottom: 8px;
 }
+
+.zayavka {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.send_batton {
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #fff;
+    border-radius: 4px;
+    padding: 16px 32px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background: #4d5ae5;
+    justify-content: center;
+    margin: 24px auto;
+    cursor: pointer;
+    border: none;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);

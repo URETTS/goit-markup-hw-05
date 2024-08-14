@@ -450,29 +450,28 @@
 <p class="modal_text">Leave your contacts and we will call you back</p>
 
 <form class="forma" name="issue_report_form">
-    <div>
+    <div class="forma_box">
     <label class="zayavka">
          Name
-        <input class="" type="text" name="username" />
+        <input class="pole" type="text" name="username" autocomplete="off"/>
     </label>
 <label class="zayavka">Phone number
-    <input type="tel" name="contact_tel" />
+    <input  class="pole" type="tel" name="contact_tel" />
 </label>
-<label>
+<label class="zayavka">
     Email
-    <input type="email" name="email" />
+    <input class="pole" type="email" name="email" />
 </label>
     <label class="zayavka">
         Comment
-        <textarea class="form-input" name="Comment" placeholder="Text input"
-            rows=5>
+        <textarea class="form-input" name="Comment" placeholder="Text input" rows="" cols="">
     </textarea>
     </label>
     </div>
 </form>
 
 
-
+<button type="button" class="send_batton">Send</button>
 
 
 
