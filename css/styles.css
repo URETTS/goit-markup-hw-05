@@ -737,9 +737,8 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .pole:focus {
     border-color: #4D5AE5;
-    fill: #4D5AE5;
 }
-.icon_modal_pole:focus {
+.pole:focus+.icon_modal_pole {
     fill: #4D5AE5;
 }
 
