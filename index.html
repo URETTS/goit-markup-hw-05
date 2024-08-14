@@ -451,38 +451,57 @@
 
 <form class="forma" name="issue_report_form">
     <div class="forma_box">
-    <label class="zayavka">
+
+        
+    <label for="user-name" class="zayavka">
          Name
-        <input class="pole" type="text" name="username" autocomplete="off"/>
+        </label>
+         <div class="zayavka_ramka">
+        <input class="pole" id="user-name" type="text" name="user-name" autocomplete="off"/>
+        <svg class="icon_modal_pole" width="18" height="24">
+            <use href="./images/iconsnew.svg#icon-person-black-18dp-1"></use>
+        </svg>
+        </div>
+
+
+
+<label for="tel" class="zayavka">
+    Phone number
     </label>
-<label class="zayavka">Phone number
-    <input  class="pole" type="tel" name="contact_tel" />
-</label>
-<label class="zayavka">
+    <div class="zayavka_ramka">
+    <input  class="pole" id="tel" type="tel" name="contact_tel" />
+    <svg class="icon_modal_pole" width="18" height="24">
+        <use href="./images/iconsnew.svg#icon-Vector"></use>
+    </svg>
+    </div>
+
+
+
+<label for="email" class="zayavka">
     Email
-    <input class="pole" type="email" name="email" />
-</label>
-    <label class="zayavka">
-        Comment
-        <textarea class="form-input" name="Comment" placeholder="Text input" rows="5" cols="5">
-    </textarea>
     </label>
+    <div class="zayavka_ramka">
+    <input class="pole" id="email" type="email" name="email" />
+    <svg class="icon_modal_pole" width="18" height="24">
+        <use href="./images/iconsnew.svg#icon-Vector-1"></use>
+    </svg>
+    </div>
+
+
+
+    <label for="user-comment" class="zayavka">
+        Comment
+        </label>
+        <div class="zayavka_ramka">
+        <textarea class="form-input" id="user-comment" name="user-comment" placeholder="Text input" >
+    </textarea>
+    </div>
     </div>
 </form>
 
+<div></div>
 
 <button type="button" class="send_batton">Send</button>
-
-
-
-
-
-
-
-
-
-
-
 
     </div>
 </div>
